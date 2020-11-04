@@ -5,5 +5,4 @@ authors = ["Aljoscha Meyer <mail@aljoscha-meyer.de>"]
 edition = "2018"
 
 [dependencies]
-# either = "1.5.3"
 loaf = "0.1.0-alpha6"
