@@ -1,5 +1,7 @@
 # Lazy Sequences
 
+**status: WIP, some traits still missing, not ready for publishing on crates.io, but everything in the readme should be fairly stable**
+
 This repository aims to provide an expressive yet practically useful set of abstractions for lazily working with potentially infinitely large sequences. It takes the form of a library for the rust programming language, but the concepts should be applicable to any strictly evaluated programming language.
 
 In the rust world, the APIs generalize a number of traits which are already in common use, and they put them into a consistent framework as opposed to the current selection of multiple, individual ad-hoc designs. Important traits that are subsumed include [`core::iter::Iterator`](https://doc.rust-lang.org/core/iter/trait.Iterator.html), [`std::io::Read`](https://doc.rust-lang.org/std/io/trait.Read.html), [`std::io::Write`](https://doc.rust-lang.org/std/io/trait.Write.html), [`futures::Stream`](https://docs.rs/futures/0.3.7/futures/stream/trait.Stream.html), [`futures::Sink`](https://docs.rs/futures/0.3.7/futures/sink/trait.Sink.html), [`bytes::Buf`](https://docs.rs/bytes/0.6.0/bytes/trait.Buf.html) and [`bytes::BufMut`](https://docs.rs/bytes/0.6.0/bytes/trait.BufMut.html).
